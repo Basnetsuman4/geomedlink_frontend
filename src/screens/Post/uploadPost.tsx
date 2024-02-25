@@ -116,9 +116,7 @@ export const UploadPost = () => {
                 />
               </Row>
             ) : (
-              <Text variant="bodyMedium" style={styles.imageUpload}>
-                Change Photo
-              </Text>
+               ''
             )}
           </View>
         </View>
