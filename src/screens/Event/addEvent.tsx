@@ -158,7 +158,7 @@ export const AddEvent = () => {
           <View style={{ width: '45%' }}>
             <Text>Date</Text>
             <DatePickerInput
-              locale="en"
+              locale="en-ES"
               label={inputDate ? inputDate.toDateString() : ''}
               onChange={(d: any) => setInputDate(d)}
               inputMode={'end'}

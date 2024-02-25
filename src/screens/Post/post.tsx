@@ -82,7 +82,7 @@ export const Post = (value: any) => {
 
                 <View style={styles.nameAndDateWrapper}>
                   <Text style={styles.userName}>
-                    {data.userName} {data.id}
+                    {data.userName}
                   </Text>
                   <Text variant="bodySmall">
                     {dayjs(data.date).format("MMM D, YYYY")}
