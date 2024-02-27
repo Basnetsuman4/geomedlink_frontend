@@ -59,6 +59,15 @@ export const AddEvent = () => {
         longitude: '',
         latitude: '',
       });
+      setEventName('');
+      setEventDescription('');
+      setDescriptionBox(false);
+      setEventDescription('');
+      setInputDate(undefined);
+      setHour('12');
+      setMinutes('00');
+      setEventLocation('');
+      setSelectedImage ('');
       navigation.navigate('EventList');
     }
   };
