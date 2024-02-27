@@ -47,9 +47,12 @@ export const useCreateEvent = () => {
       const response = await data.json();
       return response;
     },
-    onSuccess: () => {
+    onSuccess: (data) => {
       queryClient.invalidateQueries({ queryKey: ["event"] });
     },
+    onError:(e)=>{
+      console.log(e)
+    }
   });
 };
 
